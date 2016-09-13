@@ -2,16 +2,188 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Module 2 solution bogdan-codreanu</title>
+<link rel="stylesheet" href="css/styles.css">
 </head>
+
+<!--
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  font-size: 16px; 
+}
+
+h1 {  
+  margin: 15px 0px 40px 0px;
+  font-size: 175%;
+  text-align: center;
+  font-weight: bold;
+}
+
+div#container {
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+
+div.box {
+  	background-color: grey;
+  	margin: 10px;
+  	border: 2px solid black;
+}
+
+p.sectitle {
+  float: right;
+  margin-right: -2px;
+  margin-top: -2px;
+  width: 120px;
+  font-size: 125%;
+  text-align: center;  
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+p.sectext {
+	clear: both;
+	height: 200px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+p.sectitle#t1 {
+	background-color: #FF9999;
+}
+
+p.sectitle#t2 {
+	background-color: #FF3333;
+}
+
+p.sectitle#t3 {
+	background-color: #FFCC99;
+}
+
+
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+</style>
+-->
+
 <body>
-<h1>Positioning Elements</h1>
+
+<h1>Our menu</h1>
 
 <div id="container">
-  <p id="p1"></p>
-  <p id="p2"></p>
-  <p id="p3"></p>
-  <p id="p4"></p>
+ <div class="col-lg-4 col-md-6">
+	  <div class="box">
+		    <p class="sectitle" id="t1">Chicken</p>
+		  	<p class="sectext">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+	  </div>
+ </div>
+  <div class="col-lg-4 col-md-6">
+	    <div class="box">
+		    <p class="sectitle" id="t2">Beef</p>
+		  	<p class="sectext">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.</p>
+	  </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+	    <div class="box">
+		    <p class="sectitle" id="t3">Sushi</p>
+		  	<p class="sectext">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.  The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+	  </div>
+  </div>
 </div>
 
 </body>
