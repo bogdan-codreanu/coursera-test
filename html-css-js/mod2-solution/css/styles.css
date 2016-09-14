@@ -17,6 +17,8 @@ h1 {
 div#container {
   position: relative;
   margin: 0px 0px 0px 0px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 100%;
 }
 
